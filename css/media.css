@@ -1,0 +1,108 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   header{
+  background-size: 100% 600px;
+}
+  .info{
+  margin-top: 15px;
+}
+.infoh2{
+  font-size: 20px;
+}
+.infoh1{
+  font-size: 40px;
+}
+.infoa{
+  font-size: 15px;
+  letter-spacing: 15px;
+}
+.car{
+  margin-top: 15px;
+  width: 400px;
+  height: 200px;
+}
+   }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+   header{
+  background-size: 100% 600px;
+}
+  .info{
+  margin-top: 15px;
+}
+.infoh2{
+  font-size: 20px;
+}
+.infoh1{
+  font-size: 40px;
+}
+.infoa{
+  font-size: 15px;
+  letter-spacing: 15px;
+}
+.car{
+  margin-top: 15px;
+  width: 500px;
+  height: 300px;
+}
+  }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+ header{
+  background-size: 100% 600px;
+}
+  .info{
+  margin-top: 15px;
+}
+.infoh2{
+  font-size: 25px;
+}
+.infoh1{
+  font-size: 45px;
+}
+.infoa{
+  font-size: 20px;
+  letter-spacing: 15px;
+}
+.car{
+  margin-top: 20px;
+  width: 600px;
+  height: 400px;
+}
+
+  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header{
+  background-size: 150%;
+}
+  .info{
+  margin-top: 15px;
+}
+.infoh2{
+  font-size: 25px;
+}
+.infoh1{
+  font-size: 50px;
+}
+.infoa{
+  font-size: 20px;
+  letter-spacing: 15px;
+}
+.car{
+  margin-top: 20px;
+  width: 800px;
+  height: 500px;
+}
+  }
+
+/* Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  }
+
+/* Extra Extra  large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  }
